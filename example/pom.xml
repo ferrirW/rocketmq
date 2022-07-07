@@ -19,7 +19,7 @@
     <parent>
         <artifactId>rocketmq-all</artifactId>
         <groupId>org.apache.rocketmq</groupId>
-        <version>4.9.4-SNAPSHOT</version>
+        <version>4.9.4.1.2-SNAPSHOT</version>
     </parent>
 
     <modelVersion>4.0.0</modelVersion>
@@ -28,6 +28,11 @@
     <name>rocketmq-example ${project.version}</name>
 
     <dependencies>
+        <dependency>
+            <groupId>com.xiaomi.example</groupId>
+            <artifactId>SchemaTest3</artifactId>
+            <version>AVRO.1.1655365505</version>
+        </dependency>
         <dependency>
             <groupId>${project.groupId}</groupId>
             <artifactId>rocketmq-client</artifactId>
